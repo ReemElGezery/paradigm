@@ -14,6 +14,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import Calendar1 from './Calendar'
 import ReactDOM from 'react-dom';
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+
 
 
 
@@ -68,14 +70,22 @@ const Home = () => {
                 <div className="move"> <TextScroller text=" Welcome to Madinaty Sporting Club | Welcome to Madinaty Sporting Club | Welcome to Madinaty Sporting Club | Welcome to Madinaty Sporting Club |" /> </div>
 
             </div>
+            {/* <a href="https://www.facebook.com">
+                <div id="f">
 
-            <div id="f">
-                <input type="image" src="/images/f.PNG" alt="Submit" width="9" height="20" href="https://www.facebook.com" />
-            </div>
+                    <img type="image" src="/images/f.PNG" alt="Submit" width="9" height="20" />
+                </div>
+            </a> */}
 
-            <div id="inst">
-                <input type="image" src="/images/inst.PNG" alt="Submit" width="16" height="16" href="https://www.instagram.com" />
-            </div>
+            <Image src="/images/f.PNG" className="githubIcon" />
+            <Image src="/images/inst.PNG" className="githubIcon" />
+
+            {/* <input id="inst">
+                <img type="image" src="/images/inst.PNG" alt="Submit" width="16" height="16" href="https://www.instagram.com" />
+            </input> */}
+
+
+
 
 
             <div className="navdiv">
@@ -652,7 +662,7 @@ const Home = () => {
     );
 }
 
-export default Home;import React from 'react';
+export default Home; import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 import "../css/styles.css";
 import "../css/home.css";
