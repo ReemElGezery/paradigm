@@ -5,13 +5,13 @@ import "../css/home.css";
 import { Button } from 'react-bootstrap';
 import ReactCrop from 'react-image-crop';
 import FadeIn from 'react-fade-in';
-import Nav from './NavBar';
-import Footer from './footer'
-import TextScroller from "./TextScroller";
+import Nav from '../components/NavBar';
+import Footer from '../components/footer'
+import TextScroller from "../components/TextScroller";
 import "react-calendar/dist/Calendar.css";
 import Calendar from "react-calendar";
 import { makeStyles } from "@material-ui/core/styles";
-import Calendar1 from './Calendar'
+import Calendar1 from '../components/Calendar'
 import ReactDOM from 'react-dom';
 import { useEffect, useState } from "react";
 
@@ -70,11 +70,15 @@ const Home = () => {
             </div>
 
             <div id="f">
-                <input type="image" src="/images/f.PNG" alt="Submit" width="9" height="20" href="https://www.facebook.com" />
+                <a href="https://facebook.com">
+                    <img type="image" src="/images/f.PNG" alt="Submit" width="9" height="20" href="https://www.facebook.com" />
+                </a>
             </div>
 
             <div id="inst">
-                <input type="image" src="/images/inst.PNG" alt="Submit" width="16" height="16" href="https://www.instagram.com" />
+                <a href="https://instagram.com">
+                    <img type="image" src="/images/inst.PNG" alt="Submit" width="16" height="16" href="https://www.facebook.com" />
+                </a>
             </div>
 
 
