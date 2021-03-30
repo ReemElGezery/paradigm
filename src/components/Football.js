@@ -71,13 +71,13 @@ const Home = () => {
 
             <div id="f">
                 <a href="https://facebook.com">
-                    <img type="image" src="/images/f.PNG" alt="Submit" width="9" height="20" href="https://www.facebook.com" />
+                    <img type="image" src="/images/f.png" alt="Submit" width="9" height="20" href="https://www.facebook.com" />
                 </a>
             </div>
 
             <div id="inst">
                 <a href="https://instagram.com">
-                    <img type="image" src="/images/inst.PNG" alt="Submit" width="16" height="16" href="https://www.facebook.com" />
+                    <img type="image" src="/images/inst.png" alt="Submit" width="16" height="16" href="https://www.facebook.com" />
                 </a>
             </div>
 
