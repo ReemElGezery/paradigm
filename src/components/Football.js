@@ -77,8 +77,8 @@ const Home = () => {
                 </div>
             </a> */}
 
-            <Image src="/images/f.PNG" className="githubIcon" />
-            <Image src="/images/inst.PNG" className="githubIcon" />
+            <img src="/images/f.PNG" className="githubIcon" />
+            <img src="/images/inst.PNG" className="githubIcon" />
 
             {/* <input id="inst">
                 <img type="image" src="/images/inst.PNG" alt="Submit" width="16" height="16" href="https://www.instagram.com" />
