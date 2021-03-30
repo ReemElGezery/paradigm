@@ -1,0 +1,185 @@
+
+
+.navbar-expand {
+    display: none;
+
+}
+.navbar-light{
+    display: none; 
+    background-color: transparent;
+}
+
+    
+
+
+#collasible-nav-dropdown{
+    color:black ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    cursor:pointer;
+    padding: 1em 0.6em !important;
+ 
+   
+}
+#collasible-nav-dropdown:hover{
+    color:#f6ba06 !important;
+    text-decoration: underline;
+    text-decoration-color: #f6ba06;
+  
+  
+}
+#dropdown{
+    color:grey ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    cursor:pointer;
+    padding: 0.5em 1.2em !important;
+
+}
+#dropdown:hover{
+    color:#f6ba06 !important;
+    background-color: white;
+    text-decoration-color: #f6ba06;
+  
+  
+}
+.container1{
+    
+    position: fixed;
+    z-index:99;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+   
+}
+.navimg{
+   
+    cursor:pointer;
+    padding: 1em 1.2em !important;
+    
+ 
+   
+}
+.navimg:hover{
+    color:#f6ba06 !important;
+    text-decoration-color: #f6ba06;
+  
+  
+}
+#collasible-nav-dropdown1{
+    color:black ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    cursor:pointer;
+    padding: 1em 1.2em !important;
+ 
+   
+}
+#collasible-nav-dropdown1:hover{
+    color:#f6ba06 !important;
+    text-decoration-color: #f6ba06;
+  
+  
+}
+.nav1{
+    display: flex;
+    flex-direction: row;
+}
+
+#dropdown1{
+    color:white ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    cursor:pointer;
+    background-color: black;
+
+}
+#dropdown1:hover{
+    color:#f6ba06 !important;
+    background-color: black;
+    text-decoration-color: #f6ba06;
+  
+  
+}
+.scroll-to-bottom{
+
+    position: fixed;
+    z-index:99;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+   /* background-color: white; */
+  
+  }
+  .dropdown-toggle:after {
+    content: none;
+}
+.navi{
+    position: relative;
+    bottom:0.8em
+}
+.nav:hover img:hover{
+    opacity: .5;
+   
+
+}
+.image-hover-highlight {
+    -webkit-transition: all 0.50s;
+    transition: all 0.50s;
+    position: relative;
+    bottom:0.7em}
+.image-hover-highlight:hover {
+
+        filter: brightness(130%);
+        -webkit-filter: brightness(130%);
+        -moz-filter: brightness(130%);
+        -o-filter: brightness(130%);
+        -ms-filter: brightness(130%);
+        -webkit-transition: all 0.50s;
+        transition: all 0.50s;
+        image-orientation: red;
+
+    }
+    .image-hover-highlight1 {
+        -webkit-transition: all 0.50s;
+        transition: all 0.50s;
+        position: relative;
+        bottom:0.3em}
+    .image-hover-highlight1:hover {
+    
+            filter: brightness(130%);
+            -webkit-filter: brightness(130%);
+            -moz-filter: brightness(130%);
+            -o-filter: brightness(130%);
+            -ms-filter: brightness(130%);
+            -webkit-transition: all 0.50s;
+            transition: all 0.50s;
+           
+    
+        }
+#dropdown button:only-child .fas.fa-shopping-cart{
+            display:none;
+            }
+ #dropdown-toggle::after {
+ display:none;
+ 
+            }
+
+
+ #dropdown-toggle{
+                color:black ;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: medium;
+                cursor:pointer;
+                padding: 1em 0.6em !important;
+             
+            
+            }
+               
+ #dropdown-toggle:hover{
+                color:#f6ba06 !important;
+                text-decoration: underline;
+                text-decoration-color: #f6ba06;
+              
+              
+            }

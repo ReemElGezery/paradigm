@@ -1,0 +1,627 @@
+
+#container{
+    max-width: 100%;
+    max-height: 34%;
+    overflow: hidden;
+}
+#container1{
+  max-width: 100%;
+  max-height: 34%;
+  overflow: hidden;
+  position: "absolute";
+  z-index: -1;
+  left: 0;
+  top: 0;
+  /* width: "100%"; */
+}
+
+.img1{
+    width: 100%;
+    height: 30%;
+    /* object-fit: contain; */
+}
+p{
+    font-family:verdana;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+    
+}
+
+.inst{
+    height: 2em;
+    width: 2em;
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 0.5em !important;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px grey; 
+    border-radius: 0px;
+  }
+   
+  
+  ::-webkit-scrollbar-thumb {
+    background: #f6ba06; 
+    border-radius: 0px;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f6ba06; 
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left:4em;
+    height: 30em;
+    margin-top: 1em;
+    
+
+  }
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+  
+ 
+  .styleimg{
+      outline: 20px solid white;
+      outline-offset: -30px;
+      position: relative;
+      top: 2em;
+  }
+
+  .aboutus{
+    background-Color:#f6ba06;
+    color:white;
+    position: relative;
+    left:2em;
+    height: 1.5em;
+    width: 5em;
+  }
+  .aboutus1{
+    background-Color:white;
+    color:#0c5ca9;
+    font-size: 2.3em;
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    left:0.6em;
+  }
+  span{
+    background-Color:white;
+    color:grey;
+    font-size: 1em;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    left:1em;  
+    text-align: center;
+
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .all{
+      position: relative;
+      top:2em
+  }
+  .aboutbtn{
+      position: relative;
+      left:1em;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      background-color: white;
+      color: #828990;
+      border: white;
+      font-size: 1.3em;
+      font-weight: bold;
+      text-decoration: underline;
+  }
+  .aboutbtn:hover{
+    color:#f6ba06 !important;
+    background-color: white;
+    text-decoration: unset;
+    text-decoration-color: #f6ba06;
+  
+  
+}
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left:8em;
+    top:90em;
+
+  }
+  .sports{
+    background-Color:white;
+    color:#0c5ca9;
+    font-size: 2.3em;
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    left:0.6em;
+  }
+  .sports2{
+    position: relative;
+    left:10em;
+    top:0.5em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+  }
+  .slider2{
+    position: absolute;
+    top:100em;
+    width: 100%;
+
+  }
+  .sportsbtn{
+    position: relative;
+    left:27em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+    color: #828990;
+    border: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.sportsbtn:hover{
+  color:#f6ba06 !important;
+  background-color: white;
+  text-decoration: unset;
+  text-decoration-color: #f6ba06;
+
+
+}
+.sports1{
+  background-Color:white;
+  color:#0c5ca9;
+  top:4em;
+  font-size: 2.3em;
+  font-family:'Times New Roman', Times, serif;
+  position: relative;
+  left:0.6em;
+}
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left:16em;
+  top:70em;
+
+}
+.calendar1 {
+ height: 25em;
+ width:25em;
+ background-color: #0f579b;
+
+}
+.event{
+  color:white;
+  text-align: center;
+}
+.eventbtn{
+  position: relative;
+  left:10em;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color:#0f579b ;
+  color: white;
+  border: white;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.eventbtn:hover{
+text-decoration: unset;
+
+
+}
+.Calendar{
+ height: 25em;
+ width:21em;
+ background-color: #a5aaaa;
+
+}
+.calendarbtn{
+  position: relative;
+  left:8.5em;
+  top:3em;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color:#a5aaaa ;
+  color: white;
+  border: white;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.calendarbtn:hover{
+  text-decoration: unset;
+  
+  
+  }
+
+  .calevbtn{
+    position: relative;
+    left:-7em;
+    top:10em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+    color: #828990;
+    border: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.calevbtn:hover{
+  color:#f6ba06 !important;
+  background-color: white;
+  text-decoration: unset;
+  text-decoration-color: #f6ba06;
+
+
+}
+.slider3{
+  position: absolute;
+    top:220em;
+    width: 100%;
+    height:40em;
+
+}
+
+.flex-container3 {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left:8em;
+  height: 30em;
+ 
+
+}
+.sponsors{
+  position: absolute;
+  top:270em;
+ z-index: 1;
+ 
+}
+@media (max-width: 800px) {
+  .flex-container3 {
+    flex-direction: column;
+  }
+}
+.sponsorimg{
+  margin-right: 8em;
+  opacity: 0.5;
+}
+.sponsorimg:hover{
+
+  opacity: 1;
+}
+.newpic{
+  margin-top: 2em;
+  margin-left: 10em;
+}
+.news{
+  margin-top: 20em;
+  margin-left: -43em;
+}
+
+.Footer{
+  position: relative;
+  bottom:-290em;
+  right:0em;
+  
+} 
+.Footer1{
+  position: relative;
+  right:10em !important;
+  
+} 
+#email{
+  color:black
+}
+.input-container{
+  width: 250px;
+  height: 3em;
+  border: 1px solid #a9a9a9;
+  display: inline-block;
+  background-color: #a5aaaa;
+}
+.input-container input:focus, .input-container input:active {
+  outline: none;
+}
+.input-container input {
+  width: 50%;
+  border: none;
+  background-color: #a5aaaa;
+  align-content: center;
+  text-align: center;
+}
+
+.input-container button {
+  float: right;
+  height: 2.9em;
+  font-family:'Times New Roman', Times, serif;
+  color: #323433;
+  border: white;
+  background-color: #a5aaaa;
+  font-size: 1em;
+  font-weight: bold;
+}
+.input-container button:hover{
+  color:#f6ba06 !important;
+  text-decoration: unset;
+  text-decoration-color: #f6ba06;
+
+
+}
+
+::placeholder {
+  color: #323433;
+  padding-top:10em;
+
+}
+#direction{
+  color:#f6ba06;
+  text-decoration: underline;
+
+
+}
+#direction:hover{
+  text-decoration: unset;
+  
+  
+  }
+  .newsbtn1{
+    position: relative;
+    left:-8em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#d3d8d6;
+    color: #828990;
+    border: white;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.newsbtn1:hover{
+  color:#f6ba06 !important;
+  text-decoration: unset;
+  text-decoration-color: #f6ba06;
+
+
+}
+.newshead{
+  background-Color:#d3d8d6;
+  color:#0c5ca9;
+  font-size: 2.3em;
+  font-family:'Times New Roman', Times, serif;
+  position: relative;
+  left:5em;
+}
+.placeholder-center::placeholder{
+  text-align: center;
+}
+.Allbtn{
+  position: relative;
+  left:30em;
+  top:2em;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: white;
+  color: #828990;
+  border: white;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.Allbtn:hover{
+color:#f6ba06 !important;
+background-color: white;
+text-decoration: unset;
+text-decoration-color: #f6ba06;
+
+
+}
+
+#btn {
+  position: absolute;
+  top:3%;
+  left: 98%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:transparent;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+}
+
+#btn1 {
+  position: absolute;
+  top: 92.5%;
+  left: 81%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:transparent;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+}
+#f{
+  position: fixed;
+  top:268px;
+  right:0px;
+  padding:4px;
+  margin:0px;
+  z-index:99;
+  background-color: black;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  height:2.3em;
+  width:2.3em;
+  border: black;
+}
+
+#f:hover{
+  background-color: #4692ec;
+  transform: rotate(180deg);
+
+}
+
+#inst{
+  position: fixed;
+  top:230px;
+  right:0px;
+  padding:6px;
+  margin:0px;
+  z-index:99;
+  background-color: black;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  height:2.3em;
+  width:2.3em;
+  border: black;
+  border-radius: 0.1em;
+}
+
+#inst:hover{
+  background-color: #d713ab;
+  transform: rotatex(180deg);
+  /* transform: rotatey(180deg); */
+}
+
+.scroll-to-top{
+
+  position: fixed;
+  top:570px;
+  right:20px;
+  padding:4px;
+  margin:0px;
+  z-index:99;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  height:2.3em;
+  width:2.3em;
+
+
+}
+.input-button{
+position: relative;
+bottom:2.1em;
+  
+}
+
+.navbar.colorChange{
+  background-color: white;
+  width:100%;
+  height:5em;
+  position: fixed;
+  top: 0;
+    /* z-index:99; */
+    /* justify-content: center;
+    align-content: center;
+    text-align: center; */
+}
+.navbar{
+  background-color: transparent;
+}
+
+small{
+  position: absolute;
+  display: block;
+  height: 800px;
+  width: 1px;
+  background: white;
+}
+.firstOverlayLine {
+  left: 25%;
+}
+
+.secondOverlayLine {
+  left: 50%;
+}
+
+.thirdOverlayLine {
+  left: 75%;
+}
+
+.choosesport{
+  background: transparent;
+  padding-top:5em;
+}
+.imgnew:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.slide2btn{
+  color:white;
+  font-size: x-large;
+
+}
+#slide2btn{
+  color:white;
+  font-size: x-large;
+  margin-left: 2em;
+  cursor:pointer;
+
+}
+#slide2btn:hover{
+  
+  color:#f6ba06;
+ 
+  
+}
+
+.slide2txt{
+  color:white;
+  font-size: 12px;
+  margin-left: 2em;
+  
+
+
+}
+.slide2txt:hover{
+  color:black;
+  cursor:pointer
+  
+
+}
+.box{
+  background-color: transparent;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  width: 20.5em;
+  height: 8em;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    
+
+  }
+
+
+
+
+
+
+
+
+
